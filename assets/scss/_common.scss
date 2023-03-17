@@ -62,11 +62,12 @@ a:hover {
 }
 
 .section {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 
   &-title {
     margin-bottom: 80px;
+    margin-top: 0px;
     font-family: $font-secondary;
   }
 }

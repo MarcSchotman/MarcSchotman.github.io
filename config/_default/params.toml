@@ -180,10 +180,10 @@ sidebar = ["search", "categories", "tags", "recent-post"]
 
 [[social]]
 icon = "ti-instagram" # themify icon - https://themify.me/themify-icons
-link = "#" 
+link = "https://instagram.com/itsocksart?igshid=YmMyMTA2M2Y=" 
 title = "instagram" 
 
 [[social]]
 icon = "ti-linkedin" # themify icon - https://themify.me/themify-icons
-link = "#" 
+link = "https://www.linkedin.com/in/lisa-van-steenoven-153825187/?originalSubdomain=nl" 
 title = "linkedin"

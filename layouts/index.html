@@ -12,12 +12,12 @@
   <div class="layer-bg w-100">
     {{ partial "image.html" (dict "Src" "images/illustrations/leaf-bg.png" "Alt" "bg-shape" "Class" `w-100`) }}
   </div>
-  {{/*  <div class="layer" id="l2">
-    <img src="{{`images/illustrations/dots-cyan.svg` | relURL}}" alt="bg-shape">
-  </div>  */}}
   <div class="layer " id="l1">
     <img src="{{`images/lisa_premium.png` | relURL}}" alt="bg-shape" style="width: auto; height: auto;max-width: 300px;max-height: 300px">
   </div>
+  {{/*  <div class="layer" id="l2">
+    <img src="{{`images/illustrations/dots-cyan.svg` | relURL}}" alt="bg-shape">
+  </div>  */}}
   {{/*  <div class="layer" id="l3">
     <img src="{{`images/illustrations/leaf-orange.svg` | relURL}}" alt="bg-shape">
   </div>
@@ -43,7 +43,7 @@
   <!-- social icon -->
   <ul class="social-icon list-unstyled ms-3 ms-sm-5 mt-3 position-relative zindex-1">
     {{ range site.Params.social }}
-    <li class="mb-3"><a class="text-white" href="{{.link | safeURL }}"><i class="{{.icon}}"></i><span class="visually-hidden">{{.title}}</span></a></li>
+    <li class="mb-3"><a class="text-white" href="{{.link | safeURL }}"><i class="{{.icon}}" ></i><span class="visually-hidden">{{.title}}</span></a></li>
     {{ end }}
   </ul>
   <!-- /social icon -->
