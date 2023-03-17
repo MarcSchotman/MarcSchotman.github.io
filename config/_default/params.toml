@@ -9,7 +9,7 @@ logo_width = ""
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "Kross"
+logo_text = "It Socks"
 # purgeCSS
 purge_css = true
 # navbar fixed to top
@@ -21,14 +21,14 @@ search = true
 # Main Sections
 mainSections = ["portfolio"]
 # contact form action
-contact_form_action = "#" # contact form works with [https://airform.io/] or [https://formspree.io]
+contact_form_action = "" # contact form works with [https://airform.io/] or [https://formspree.io]
 # google tag manager, see https://developers.google.com/tag-manager/
 google_adsense = "" # example: ca-pub-xxxxxxxxxxxxxxxx
 google_tag_manager = "" # example: G-XXXXXXXXXX
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-copyright = "Copyright by your company"
+copyright = "Copyright by It Socks"
 theme_copyright = true
 
 # Preloader
@@ -38,7 +38,7 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 # contact info
 [contact_info]
-address = ""
+# address = ""
 email = "lvansteenoven92@gmail.com"
 mobile = "+316 416 383 69"
 
@@ -109,8 +109,11 @@ mastodon = "" # Your verification code
 
 # google map
 [google_map]
-enable = true 
+enable = false 
 
+[contact_text]
+enable = true
+text = "Contact me aub snel"
 # cookies
 [cookies]
 button = "I Accept"
@@ -165,15 +168,15 @@ sidebar = ["search", "categories", "tags", "recent-post"]
 # available widget : search,categories,tags,recent-post
 
 ############################# social site ########################
-[[social]]
-icon = "ti-facebook" # themify icon https =themify.me/themify-icons
-link = "#"
-title = "facebook" 
+# [[social]]
+# icon = "ti-facebook" # themify icon https =themify.me/themify-icons
+# link = "#"
+# title = "facebook" 
 
-[[social]]
-icon = "ti-twitter" # themify icon - https://themify.me/themify-icons
-link = "#" 
-title = "twitter" 
+# [[social]]
+# icon = "ti-twitter" # themify icon - https://themify.me/themify-icons
+# link = "#" 
+# title = "twitter" 
 
 [[social]]
 icon = "ti-instagram" # themify icon - https://themify.me/themify-icons

@@ -26,7 +26,7 @@ work_process:
 
 # team
 team:
-  enable: true
+  enable: false
   title : "My Team"
   team_member:
     - title : "Jack Schenziwe"

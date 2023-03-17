@@ -1,7 +1,7 @@
 ---
 # banner
 banner:
-  title : "Hi! Ik ben <br> Lisa <br> Jouw creatieve lichtpunt"
+  title : "Hi! Ik ben <br> Lisa"
 
 # about
 about:

@@ -1,10 +1,10 @@
 ############# English navigation ##############
 
 # main menu
-[[main]]
-URL = "about/"
-name = "About"
-weight = 1
+# [[main]]
+# URL = "about/"
+# name = "About"
+# weight = 1
 
 # [[main]]
 # URL = "blog/"
@@ -14,9 +14,9 @@ weight = 1
 [[main]]
 URL = "portfolio/"
 name = "Portfolio"
-weight = 2
+weight = 1
 
 [[main]]
 URL = "contact/"
 name = "Contact"
-weight = 3
+weight = 2
