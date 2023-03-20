@@ -25,8 +25,8 @@ skill:
   enable : true
   title : "Skills"
   item:
-    - title : "Web Design"
-      progress : "90%"
+    - title : "Shaper"
+      progress : "1000%"
       color : "#fdb157"
       
     - title : "Logo Design"

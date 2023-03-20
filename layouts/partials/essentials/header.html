@@ -9,6 +9,8 @@
       <h3 class="text-white font-secondary">{{site.Title}}</h3>
       {{ end }}
     </a>
+
+    {{ if site.Params.navigation.enable}}
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
       <i class="ti-close"></i>
@@ -46,6 +48,7 @@
         {{ end }}
       </ul>
     </div>
+    {{ end }}
   </nav>
 </header>
 <!-- /navigation -->

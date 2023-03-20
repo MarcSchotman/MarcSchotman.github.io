@@ -31,6 +31,9 @@ custom_script = ""
 copyright = "Copyright by It Socks"
 theme_copyright = true
 
+[navigation]
+enable=false
+
 # Preloader
 [preloader]
 enable = true 
