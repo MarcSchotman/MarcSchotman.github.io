@@ -9,13 +9,10 @@ logo_width = ""
 # if logo_webp set false, will not generate WEBP version of logo | default is true
 logo_webp = true
 # logo text will only show when logo is missing.
-logo_text = "Kross"
+logo_text = "ItS0cks"
 
 # purgeCSS
 purge_css = true
-
-# contact form action
-contact_form_action = "#" # contact form works with [https://airform.io/] or [https://formspree.io]
 
 # google tag manager, see https://developers.google.com/tag-manager/
 google_adsense = "" # example: ca-pub-xxxxxxxxxxxxxxxx
@@ -25,7 +22,7 @@ google_tag_manager = "" # example: G-XXXXXXXXXX
 custom_script = ""
 
 # copyright
-copyright = "Copyright by your company"
+copyright = "ItS0cks"
 theme_copyright = true
 
 # Preloader
@@ -35,9 +32,13 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 # contact info
 [contact_info]
-address = "9567 Turner Trace Apt. BC C3G8A4"
-email = "info@email.com"
-mobile = "+211234565523"
+address = ""
+email = "lvansteenoven92@gmail.com"
+mobile = "+316 416 383 69"
+
+[contact_form]
+enable = false
+contact_form_action = "#" # contact form works with [https://airform.io/] or [https://formspree.io]
 
 # Crisp Chat
 [crisp_chat]
